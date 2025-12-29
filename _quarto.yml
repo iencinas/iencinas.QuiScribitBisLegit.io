@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "QuiScribitBisLegit"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/iencinas
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    code-fold: true     # Esto permite que el lector oculte/muestre el código R
+    code-copy: true     # Añade un botón para copiar código
+    toc: true           # Tabla de contenidos a la derecha
+
+editor: visual
+
